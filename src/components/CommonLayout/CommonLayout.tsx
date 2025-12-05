@@ -7,7 +7,7 @@ export const CommonLayout: FC<PropsWithChildren> = ({
   children
 }) => {
   return (
-    <Layout>
+    <Layout style={{ minHeight: '100vh' }}>
       <Layout.Header>
         <Avatar shape="square" size={'small'} icon={<UserOutlined />} />
       </Layout.Header>
